@@ -1,0 +1,1310 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color:rgb(0,36,14);
+}
+
+.main-image{
+    width: 719px;
+    position: absolute;
+    left: 800px;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.7%;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+}
+
+.navbar img{
+    width: 18%;
+}
+
+.navbar ul{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    /* pionosit: sticky; */
+}
+
+.navbar ul li a:first-child{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: orange;
+}
+
+.navbar ul li a i:hover{
+    color: orange;
+}
+
+.navbar ul li:hover{
+    transition: all ease-in-out 0.4s;
+    transform: scale(130%);
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    display: none;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 9%;
+}
+
+.hero-section h5{
+    color: orange;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin: 0.8%;
+    font-family: 'EB Garamond', serif;
+}
+
+.hero-section h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6.8rem;
+    font-weight: 100;
+    margin-bottom: 0.8%;
+}
+.hero-section h1 span{
+    color: green;
+}
+
+#span-2{
+    color: orange;
+}
+
+.hero-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 4.5rem;
+    font-weight: 100;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 0.9%;
+}
+
+.hero-section a:hover{
+    color: orange;
+    transition: all ease-in-out 0.5s;
+}
+
+.hero-section button{
+    width: 25%;
+    height: 50px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: rgb(3,180,60);
+    border: 0.3px solid black;
+    border-radius: 30px;
+    margin-top: 0.9%;
+    margin-bottom: 15%;
+    
+}
+.hero-section button:hover{
+    border: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.hero-section h6{
+    font-family: 'EB Garamond', serif;
+    color: rgb(0,167,55);
+}
+
+.hero-section h2{
+    font-size: 3.5rem;
+    font-family: 'EB Garamond', serif;
+    color: rgb(255,187,0);
+    margin-top: 1%;
+}
+
+.hero-section h2 br{
+    display: none;
+}
+
+.hero-section p{
+    font-family: 'EB Garamond', serif;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.icon-section{
+    font-size: 40px;
+    position: fixed;
+    right: 0%;
+    top: 30%;
+}
+
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-box:first-child{
+    background-color: rgb(24,119,242);
+    border-radius: 10px 0px 0px 0px;
+}
+
+.icon-box:nth-child(2){
+    background-color: rgb(29,161,242);
+}
+.icon-box :nth-child(3){
+    background-color: rgb(195,42,163);
+}
+
+.icon-box:nth-child(4){
+    background-color: rgb(67,216,84);
+}
+
+.icon-box:nth-child(5){
+    background-color: rgb(0,119,181);
+    border-radius: 0px 0px 0px 10px;
+}
+
+/* second page */
+
+.hero-section2{
+    width: 100%;
+    height: auto;
+    padding-block: 70px;
+    padding-inline: 50px;
+}
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-section{
+    width: 270px;
+    height: 380px;
+    background-color: rgb(24, 69, 24);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-section img{
+    width: 220px;
+    height: auto;
+    border-radius: 30px;
+    border:  1px solid orange;
+}
+
+.box-section img:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(90%);
+}
+
+.box-section h4{
+    color: orange;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.box-section p{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* three page */
+
+.hero-section3{
+    width: 100%;
+    height: auto;
+    padding-inline: 55px;
+    padding-block: 50px;
+}
+
+.main-boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.two-box{
+    width: 680px;
+    height: 450px;
+    background-color: rgb(24, 69, 24);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.two-box img{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid orange;
+}
+
+.two-box img:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(90%);
+}
+
+.two-box h4{
+    font-size: 30px;
+    font-weight: 100;
+    color: orange;
+    margin-top: 10px;
+}
+.two-box p{
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+/* four page */
+
+.hero-section4{
+    width: 100%;
+    height: auto;
+    padding-block: 70px;
+    padding-inline: 50px;
+}
+.boxes-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-section2{
+    width: 270px;
+    height: 380px;
+    background-color: rgb(24, 69, 24);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-section2 img{
+    width: 220px;
+    height: auto;
+    border-radius: 30px;
+    border:  1px solid orange;
+}
+
+.box-section2 img:hover{
+    transition: all ease-in-out 0.5s;
+    transform: scale(90%);
+}
+
+.box-section2 h4{
+    color: orange;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.box-section2 p{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.load-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.load-btn button{
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.load-btn button:hover{
+    background-color: orange;
+    color: black;
+}
+
+/* five-page */
+
+.hero-section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section5 h5{
+    font-size: 12px;
+    font-family: 'Smooch Sans', sans-serif;
+    color: orange;
+    text-align: center;
+}
+
+.hero-section5 h2{
+    font-family: 'Smooch Sans', sans-serif;
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.choose-box{
+    width: 80%;
+    height: 500px;
+    border: 1px solid green;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.responsive-box{
+    width: 33%;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-right: 1px solid green ;
+}
+
+.responsive-box img{
+    width: 80px;
+}
+
+.responsive-box h4{
+    color: green;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.responsive-box p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+   
+
+}
+
+.seo-box{
+    width: 33%;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-right: 1px solid green ;
+}
+
+.seo-box img{
+    width: 80px;
+}
+
+.seo-box h4{
+    color: green;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.seo-box p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.best-box{
+    width: 33%;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.best-box img{
+    width: 80px;
+}
+
+.best-box h4{
+    color: green;
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.best-box p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;    
+}
+
+/* six page */
+
+.hero-section6{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* flex-direction: column; */
+}
+
+.hero-section6 h3{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.boxes-section6{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 15%;
+    padding-block: 40px;
+}
+
+.box-word1{
+    width: 250px;
+    height: 190px;
+    background-color: rgb(4,64,23);
+    border-radius: 20px;
+    padding-inline: 10px;
+    
+    
+}
+
+.w-image{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(0,179,59);
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.w-image img{
+    width: 55px;
+}
+.box-word1 h5{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.box-word1 p{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.box-word2{
+    width: 250px;
+    height: 190px;
+    background-color: rgb(71,31,11);
+    border-radius: 20px;
+    padding-inline: 10px;
+}
+
+.w-image2{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(225,0,0);
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.w-image2 img{
+    width: 55px;
+}
+.box-word2 h5{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.box-word2 p{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-word3{
+    width: 250px;
+    height: 190px;
+    background-color: rgb(57,75,13);
+    border-radius: 20px;
+    padding-inline: 10px;
+}
+
+.w-image3{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(255,187,0);
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.w-image3 img{
+    width: 55px;
+}
+.box-word3 h5{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.box-word3 p{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-word4{
+    width: 250px;
+    height: 190px;
+    background-color: rgb(4,64,23);
+    border-radius: 20px;
+    padding-inline: 10px;
+}
+
+.w-image4{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(0,179,59);
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.w-image4 img{
+    width: 55px;
+}
+.box-word4 h5{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.box-word4 p{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* seven page */
+.hero-section7{
+    width: 100%;
+    height: auto;
+}
+
+.hero-section7 h1{
+    font-size: 50px;
+    font-family: 'Smooch Sans', sans-serif;
+    color: orange;
+    text-align: center;
+    padding-block: 30px;
+}
+
+.hero-section7 hr{
+    width: 10%;
+    margin-left: 45%;
+    margin-block: 50px;
+}
+
+.boxes-section7{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panfila{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(31,59,14);
+    padding-left: 30px;
+    box-shadow: 1px 1px 15px yellow;
+    padding-top: 30px;
+    padding-inline: 20px;
+    border: 1px solid yellow;
+    border-radius: 20px 20px 20px 90px;
+}
+
+.panfila p{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 2.2rem;
+}
+
+.panfila-image{
+    display: flex;
+    
+
+}
+.panfila-image span{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.panfila-image span h4{
+    font-family: 'Smooch Sans', sans-serif;
+}
+.panfila-image span h5{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.panfila-image img{
+    width: 70px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.panfila i{
+    padding-left: 90%;
+    font-size: 30px;
+    color: orange;
+    padding-bottom: 30px;
+}
+
+
+/*  */
+.panfila2{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(27,36,14);
+    padding-left: 30px;
+    box-shadow: 1px 1px 20px rgb(157, 23, 23);
+    padding-top: 30px;
+    padding-inline: 20px;
+    border: 1px solid red;
+    border-radius: 20px 20px 20px 90px;
+}
+
+.panfila2 p{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 2.2rem;
+}
+
+.panfila-image2{
+    display: flex;
+    padding-top: 30px;
+    
+
+}
+.panfila-image2 span{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.panfila-image2 span h4{
+    font-family: 'Smooch Sans', sans-serif;
+}
+.panfila-image2 span h5{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.panfila-image2 img{
+    width: 70px;
+    border: 5px solid rgb(255, 47, 0);
+    border-radius: 50%;
+}
+
+.panfila2 i{
+    padding-left: 90%;
+    font-size: 30px;
+    color: red;
+}
+
+/*  */
+.panfila3{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(0,56,20);
+    padding-left: 30px;
+    box-shadow: 1px 1px 20px rgb(10, 214, 82);
+    padding-top: 30px;
+    padding-inline: 20px;
+    border: 1px solid green;
+    border-radius: 20px 20px 20px 90px;
+}
+
+.panfila3 p{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 2.2rem;
+}
+
+.panfila-image3{
+    display: flex;
+    
+
+}
+.panfila-image3 span{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.panfila-image3 span h4{
+    font-family: 'Smooch Sans', sans-serif;
+}
+.panfila-image3 span h5{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.panfila-image3 img{
+    width: 70px;
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+.panfila3 i{
+    padding-left: 90%;
+    font-size: 30px;
+    color: green;
+}
+
+/* eight page */
+
+.hero-section8{
+    width: 100%;
+    height: 650px;
+}
+
+.hero-section8 h2{
+    font-size: 35px;
+    font-weight: 100;
+    color: orange;
+    text-align: center;
+    margin-top: 180px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.boxes-section8{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 30px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.web-section ul{
+    list-style: none;
+}
+
+.web-section ul li i{
+    margin-right: 80px;
+}
+
+.web-section ul li{
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+.design-section ul{
+    list-style: none;
+
+}
+
+.design-section ul li {
+    margin-right: 80px;
+}
+
+.design-section ul li {
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+/* nine-page */
+
+.boxes-section9{
+    width: 100%;
+    height: auto;
+}
+
+.hero-section9 h2{
+    font-size: 49px;
+    color: orange;
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+}
+
+.nine-image{
+    width: 100%;
+    height: auto;
+    padding-inline: 90px;
+    padding-top: 50px;
+}
+
+.image-last span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 20px;
+}
+.image-last span img{
+    width: 170px;
+    filter: grayscale(100%);
+}
+
+.image-last span img:hover{
+    filter: grayscale(0%);
+    transition: all ease-in-out 0.2s;
+}
+
+.second-image span{
+    padding-block: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-image span img{
+    width: 200px;
+}
+
+.second-image span img:nth-child(4){
+    width: 100px;
+}
+
+
+/* last page */
+
+.hero-section10 hr{
+    border: 1px solid green;
+}
+
+.hero-section10{
+    width: 100%;
+    height: auto;
+    padding-block: 20px;
+}
+
+.footer p{
+    font-size: 25px;
+    font-family: 'Smooch Sans', sans-serif;
+    color: orange;
+    text-align: center;
+    padding-block: 25px;
+}
+
+#india{
+    color: green;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#finish{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar img{
+        width: 200px;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    /* first page */
+
+    .hero-section{
+        width: 100%;
+        height: auto;
+        padding-top: 90px;
+    }
+
+    .hero-section h5{
+        font-size: 14px;
+    }
+
+    .hero-section h1{
+        font-size: 35px;
+    }
+
+    .hero-section a{
+        font-size: 25px;
+        padding-block: 5px;
+    }
+
+    .hero-section button{
+        width: 280px;
+        height: 55px;
+        margin-bottom: 150px;
+    }
+    .hero-section h6{
+        font-size: 12px;
+    }
+
+    .hero-section h2{
+        font-size: 30px;
+        text-align: center;
+        padding-block: 10px;
+    }
+    .hero-section h2 br{
+        display: inline;
+    }
+    .hero-section p{
+        font-size: 18px;
+        text-align: center;
+        padding-inline: 100px;
+        padding-block: 10px;
+    }
+
+    
+    .icon-section{
+        display: none;
+    }
+
+    /* second page */
+
+    .hero-section2{
+        width: 100%;
+        height: auto;
+    }
+    .boxes {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .box-section{
+        margin-top: 20px;
+    }
+    /* three page */
+
+    .hero-section3{
+        width: 100%;
+        height: auto;
+    }
+    .main-boxes{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .two-box{
+        margin-top: 30px;
+    }
+
+    .two-box img{
+        width: 85%;
+        height: 70%;
+    }
+
+    /* four page */
+    .hero-section4{
+        width: 100%;
+        height: auto;
+    }
+    .boxes-2{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .box-section2{
+        margin-top: 20px;
+    }
+
+    /* five page */
+    .hero-section5{
+        width: 100%;
+        height: auto;
+    }
+
+    .choose-box{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+       
+    }
+
+    .responsive-box{
+        width: 100%;
+        height: 500px;
+        font-size: 22px;
+        border-bottom: 1px solid green ;
+
+    }
+    .seo-box{
+        width: 100%;
+        height: 500px;
+        font-size: 22px;
+        border-bottom: 1px solid green;
+    }
+    .best-box{
+        width: 100%;
+        height: auto;
+        font-size: 22px;
+        border-bottom: 1px solid green;
+    }
+    /* six page */
+    .hero-section6{
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes-section6{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        padding-block: 30px;
+    }
+
+    .box-word1{
+        width: 100%;
+        height: 180px;
+    }
+
+    .box-word2{
+        width: 100%;
+        height: 180px;
+        margin-top: 40px;
+    }
+
+    .box-word3{
+        width: 100%;
+        height: 180px;
+        margin-top: 40px;
+    }
+
+    .box-word4{
+        width: 100%;
+        height: 180px;
+        margin-top: 40px;
+    }
+
+    /* seven page */
+    .hero-section7{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section7 h1{
+        font-size: 35px;
+    }
+
+    .hero-section7 hr{
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .boxes-section7{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .panfila2{
+        margin-top: 50px;
+    }
+
+    .panfila3{
+        margin-top: 50px;
+    }
+
+    /* eight page */
+
+    .hero-section8{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section8 h2{
+        font-size: 25px;
+    }
+    .boxes-section8{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .web-section ul li{
+        font-size: 14px;
+        padding-right: 90px;
+    }
+
+    .design-section ul li{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+
+    /* last page */
+
+    .hero-section9{
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+    }
+
+    .hero-section9 h2{
+        font-size: 28px;
+    } 
+
+    .nine-image{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .image-last span{
+        flex-wrap: wrap;
+    }
+
+    .image-last span img{
+        margin-top: 30px;
+    }
+
+    .second-image span{
+        flex-wrap: wrap;
+
+    }
+
+    .second-image span img{
+        margin-top: 30px;
+        margin-inline: 30px;
+    }
+
+    .second-image span img:nth-child(4){
+        
+    }
+
+
+
+
+}
